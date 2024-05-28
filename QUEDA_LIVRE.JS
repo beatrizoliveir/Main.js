@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function(){
     const gravidade = 9.81;
 
@@ -18,6 +17,6 @@ document.addEventListener("DOMContentLoaded", function(){
         }, 7000);
 
     } else {
-        this.location.reload();
+        location.reload();
     }
 });
